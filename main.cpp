@@ -60,7 +60,7 @@ int main(){
         ClearBackground(GREEN);
         DrawRectangle(700, 700, 10, 10, BLACK);
         DrawCircleV(ballpuci, 30, WHITE);
-        const char *msg = "Press spacebar to AUTO-DRIVE";
+        const char *msg = "Press spacebar to AUTODRIVE";
         DrawText(msg, 100, 150, 20, BLACK);
 
         EndDrawing();
