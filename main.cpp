@@ -16,7 +16,7 @@ int main(){
     while(WindowShouldClose() == false){
         Vector2 balldir = {0.0f, 0.0f};
         
-        // Event handling
+        // Event handling (note: FOR VIM GOONERS -> just copy and paste this keybinding and change it to vim keybind.)
         if(IsKeyDown(KEY_W)) balldir.y = -1.0f;
         if(IsKeyDown(KEY_S)) balldir.y = 1.0f;
         if(IsKeyDown(KEY_A)) balldir.x = -1.0f;
