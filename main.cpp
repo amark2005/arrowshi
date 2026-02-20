@@ -25,6 +25,7 @@ int main(){
         if(IsKeyPressed(KEY_SPACE)){
             movingToTarget = true;
         }
+        if(IsKeyPressed(KEY_Q)){break;}
 
         if (balldir.x != 0.0f || balldir.y != 0.0f) {
             movingToTarget = false;
